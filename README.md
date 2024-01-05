@@ -15,5 +15,4 @@ Lorsque je faisais un terraform init j'avais l'erreur suivante :
 │ for more information about providing credentials.
 │
 │ Error: failed to refresh cached credentials, no EC2 IMDS role found, operation error ec2imds: GetMetadata, exceeded maximum number of attempts, 3, request send    
-│ failed,
-''
+│ failed,''
