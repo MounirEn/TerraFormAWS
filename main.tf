@@ -38,8 +38,8 @@ resource "aws_security_group" "allow_tls" {
   
 }  
 resource "aws_subnet" "my_subnet" {
-  vpc_id                  = aws_vpc.main.id     # Association avec la VPC principale
-  cidr_block              = aws_vpc.main.cidr_block  # Bloc CIDR pour le sous-réseau
-  availability_zone       = "eu-west-3a"        # Zone de disponibilité pour le sous-réseau
+  vpc_id                  = aws_vpc.main.id     
+  cidr_block              = aws_vpc.main.cidr_block  
+  availability_zone       = "eu-west-3a"        
 }
 
