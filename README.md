@@ -7,7 +7,8 @@ Créés le fichier main.tf dans lequel on va declarer nos configuration pour cr�
 ## Problèmes recontrés
 
 Lorsque je faisais un terraform init j'avais l'erreur suivante :
-'''Initializing the backend...
+'''bash
+Initializing the backend...
 ╷
 │ Error: No valid credential sources found
 │
@@ -15,4 +16,5 @@ Lorsque je faisais un terraform init j'avais l'erreur suivante :
 │ for more information about providing credentials.
 │
 │ Error: failed to refresh cached credentials, no EC2 IMDS role found, operation error ec2imds: GetMetadata, exceeded maximum number of attempts, 3, request send    
-│ failed,'''
+│ failed,
+'''
